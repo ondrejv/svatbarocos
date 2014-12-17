@@ -1,0 +1,46 @@
+#home {
+	.home-wrapper {
+		.logo {
+			h1.quotes {
+				display: none;		
+			}
+		}
+		.buttons {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+		}
+	}	
+	.top-menu-wrapper {	
+		width: 100%;
+		position: absolute;
+		top: 0;
+		z-index: @top-menu;
+		.top-menu {
+			float: right;	
+			.top-menu-item {
+				display: inline-block;
+				margin: 0 @base-unit * 0.5;
+				.top-menu-item-link {
+					padding: @base-unit;
+					display: inline-block;
+					color: @color-black;
+					background-color: @color-white;
+					.box-shadow(0 1px 0 3px rgba(0,0,0,0.05));
+				}
+			}
+		}
+	}
+}
+.deer-main {
+	height: 340px;
+}
+
+#oznameni {
+	.svatebni-oznameni {
+		width: 100%;
+	}
+}
+#portfolio {
+	background-color: #ccc;
+}
